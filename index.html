@@ -9,6 +9,15 @@
 <body>
   <header>
     <h1>Movies Gallery</h1>
+    <div class="controls">
+      <input type="text" id="filterInput" placeholder="Search by title or director...">
+      <select id="sortSelect">
+        <option value="">Sort By</option>
+        <option value="title">Title (A-Z)</option>
+        <option value="release_year">Year (Ascending)</option>
+        <option value="director">Director (A-Z)</option>
+      </select>
+    </div>
   </header>
   <main>
     <div id="movies-container">
